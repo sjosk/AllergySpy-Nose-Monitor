@@ -78,20 +78,20 @@ void loop() {
   float temperature = dht.readTemperature();
 
   // Update NeoPixel color
-      if (dustQualityIndex == 4) { // 如果空气质量为 Poor
-      setStripColor(strip.Color(255, 0, 0)); // 红色
+      if (dustQualityIndex == 4) { // If Air Quality = Poor
+      setStripColor(strip.Color(255, 0, 0)); // Red
     } else if (humidity > 50) {
-      setStripColor(strip.Color(255, 165, 0)); // 橘色
+      setStripColor(strip.Color(255, 165, 0)); // Orange
     } else {
       // update NeoPixel color based on air quality and humidity
       switch (dustQualityIndex) {
         case 0: // Excellent
         case 1: // Very good
         case 2: // Good
-          setStripColor(strip.Color(0, 255, 0)); // 绿色
+          setStripColor(strip.Color(0, 255, 0)); // Green
           break;
         case 3: // Normal
-          setStripColor(strip.Color(0, 0, 255)); // 蓝色
+          setStripColor(strip.Color(0, 0, 255)); // Blue
           break;
       }
     }
