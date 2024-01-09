@@ -20,3 +20,14 @@ A device that can detect common airborne allergens, humidity, and alert user to 
 
 The current prototype stands for a foundational step towards creating a more intelligent home environment. Future versions will integrate with home automation systems, offering features like panel customization and Wi-Fi connectivity. Such advancements will automatically enable the device to interact with other smart home appliances, like air purifiers, Robot vacuums and dehumidifiers. This integration aims to significantly improve living conditions for those suffering from allergies, making their homes more adaptable and responsive to their health needs. 
 
+## Reference  
+
+1. Persaud, K., Dodd, G. (1982). Analysis of discrimination mechanisms in the mammalian olfactory system using a model nose. Nature 299, 352–355. doi: 10.1038/299352a0. 
+
+2. NHS SCOTLAND (2023). Allergic rhinitis. [online] Available at: https://www.nhsinform.scot/illnesses-and-conditions/ears-nose-and-throat/allergic-rhinitis#causes-of-allergic-rhinitis. 
+
+3. SHARP (n.d.). Application note of Sharp dust sensor GP2Y1010AU0F (Sheet No.: OP13024EN). [online] Available at: https://global.sharp/products/device/lineup/data/pdf/datasheet/gp2y1010au_appl_e.pdf 
+
+4. Megan Bilaloski (2012). The Hay Fever Hat wins...by a nose. The Sydney Morning Herald. [online] Available at: https://www.smh.com.au/lifestyle/the-hay-fever-hat-winsby-a-nose-20120312-1uwcl.html 
+
+5. Waveshare (2015). Dust Sensor User Manual-EN V1.4. [online] Available at: https://www.waveshare.com/wiki/File:Dust-Sensor-User-Manual-EN.pdf 
