@@ -1,6 +1,8 @@
 # 🤧 Allergy Spy Nose  
 NASAL ALLERGEN DETECTOR​   
->Ah-Choo!  
+>Ah-Choo!
+
+![device](./img/device.png)   
 
 The 'Allergy-Spy Nose' is an innovative device designed to enhance indoor air quality by detecting airborne allergens. Rooted in addressing severe nasal allergies, this system synergizes a particulate matter sensor (GP2Y1010AU0F) and a DHT22 sensor with an Arduino Uno microcontroller. It offers real-time air quality monitoring, visually represented via an OLED display and a colour-coded NeoPixel LED array. This device is tailored to improve living conditions for allergy sufferers, epitomising the integration of environmental sensing technology in health-centric applications. This report explores the device’s design, functionality, and potential impact on allergen detection, underscoring its significance in environmental health management.  
 ## Background  
@@ -14,11 +16,18 @@ A device that can detect common airborne allergens, humidity, and alert user to 
 - Actuators: NeoPixel LED​  
 - Passive Components: Resistors, Capacitor ​  
 - Display: OLED Display
+  
+![Arduino/Wire Design.png](https://github.com/sjosk/AllergySpy-Nose-Monitor/blob/main/Arduino/Wire%20Design.png?raw=true)
 
+## Enclosure Design  
+The Allergy-Spy Nose is an innovative design that fuses a dust sensor with a tissue holder. Inspired by Japanese inventor Kenji Kawakami's Hay Fever Hat [4], a hat designed to hold a tissue box for allergy sufferers to access quickly, the Allergy-Spy Nose aims to provide practicality and convenience. The design focuses on blending seamlessly into indoor environments, combining wood's aesthetic appeal with a tissue holder's functionality. This approach ensures the product is helpful for daily needs and visually appealing.  
+![design](Enclosure/mockup.png)
 
 ## Future Development 
 
 The current prototype stands for a foundational step towards creating a more intelligent home environment. Future versions will integrate with home automation systems, offering features like panel customization and Wi-Fi connectivity. Such advancements will automatically enable the device to interact with other smart home appliances, like air purifiers, Robot vacuums and dehumidifiers. This integration aims to significantly improve living conditions for those suffering from allergies, making their homes more adaptable and responsive to their health needs. 
+
+![futuredevelopment](./img/Futuredevelopment.png) 
 
 ## Reference  
 
